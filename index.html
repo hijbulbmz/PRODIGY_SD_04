@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="rules">
+    <p><b>Rule 1 : </b>No number can be repeated within any row.
+        <br>
+        <b>Rule 2 : </b>No number can be repeated within any column.
+        <br>
+        <b>Rule 3 : </b>The grid is divided into nine 3x3 subgrids,
+        <br>
+        No number can be repeated within any column.</p>
+    </div>
+    <div class="container">
+        <h1>Sudoku Solver</h1>
+        <div id="sudoku-grid">
+        </div>
+        <button onclick="solveSudoku()">Solve</button>
+        <button onclick="clearGrid()">Clear Grid</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
